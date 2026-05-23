@@ -1,36 +1,66 @@
-# Solidity Learning Repository
+# Solidity Learning Journey
 
-This repository contains my beginner Solidity and blockchain development practice projects.
+This repository contains my Solidity learning projects, experiments, and notes as I explore smart contract development, blockchain fundamentals, and Web3 security concepts.
 
-I am currently learning:
-- Solidity
-- Smart Contracts
-- Blockchain Fundamentals
-- Web3 Development
-- Smart Contract Security Basics
+## Concepts Covered
 
-## Projects
+- Storage Variables
+- Structs & Mappings
+- Contract Inheritance
+- Function Overriding
+- Contract Imports
+- Factory Contracts
+- Contract-to-Contract Interaction
+- Arrays of Smart Contracts
+- Basic Solidity Architecture
+
+---
+
+## Contracts
 
 ### SimpleStorage.sol
-A beginner smart contract to practice:
+A basic storage contract used to learn:
 - State variables
+- Functions
 - Structs
 - Arrays
 - Mappings
-- Functions
 
-Features:
-- Store and retrieve a number
-- Add users with favorite numbers
-- Map names to favorite numbers
+### AddFiveStorage.sol
+Demonstrates:
+- Inheritance
+- Overriding functions
+- Modifying inherited behavior
 
-## Tools Used
+### StorageFactory.sol
+Demonstrates:
+- Deploying contracts from another contract
+- Factory contract pattern
+- Contract interaction
+- Managing multiple deployed contracts
+
+---
+
+## Tools & Technologies
+
 - Solidity
 - Remix IDE
-- GitHub
+- Git & GitHub
+- Ethereum Virtual Machine (EVM)
 
-## Learning Goals
-- Improve Solidity development skills
-- Learn smart contract security concepts
-- Build blockchain development projects
-- Explore Web3 and DeFi systems
+---
+
+## Current Learning Focus
+
+- Smart Contract Security
+- Gas Optimization
+- Storage Layout
+- calldata vs memory
+- Solidity Testing
+- Web3 Development
+
+---
+
+## Goal
+
+Building a strong foundation in Solidity, smart contract development, and blockchain security through consistent hands-on practice and small projects.
