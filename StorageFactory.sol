@@ -58,6 +58,6 @@ contract StorageFactory {
     ) public view returns (uint256) {
 
         return listOfSimpleStorageContracts[_simpleStorageIndex]
-            .retrieve();
+            .retrive();
     }
 }
